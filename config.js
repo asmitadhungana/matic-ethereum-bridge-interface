@@ -1,0 +1,28 @@
+module.exports = {
+    root: {
+      RPC: "https://goerli.infura.io/v3/990b18bab4354e5e9e51c5be730d124d",
+      RootChainManagerProxy: "0xBbD7cBFA79faee899Eaf900F13C9065bF03B1A74",
+      OLD_GLD: "0xf3Ec7AdD160F3e90A36911525Ad82d66DC069794",
+      GLD: "0x98A6fec66A47da9b184f7561fe3A5faEDec9Af2C",
+      SLVR: "0xDAe16ab81686FCBA18689dC43926D855cA895F43",
+      BRNZ: "0x457CF662329A251a3af95a32e3f42be5Ff058098",
+      DERC20: '0x655F2166b0709cd575202630952D71E2bB0d61Af',
+      posERC20Predicate: "0xdD6596F2029e6233DEFfaCa316e6A95217d4Dc34",
+      POSRootChainManager: "0xBbD7cBFA79faee899Eaf900F13C9065bF03B1A74",
+      POSRootChainManagerProxy: "0xBbD7cBFA79faee899Eaf900F13C9065bF03B1A74",
+    },
+    child: {
+      RPC: "https://rpc-mumbai.matic.today",
+      M_OLD_GLD: "0xfb1B077E99D0BB99969053DEc6B1a0A308e127b8",
+      M_GLD: "0xa35f8C6708C9d3e635828C170Cd33eB8FBEB410a",
+      M_SLVR: "0x800F0e3637B27Da3E2baF5b61Ca7A52d30588Ede",
+      M_BRNZ: "0x4a974398e018C33F75562acFc8Cc4DB26f5622eb",
+      DERC20: '0xfe4F5145f6e09952a5ba9e956ED0C25e3Fa4c7F1',
+    },
+    user: {
+      privateKey: "0x2b4f8c2f6bb5f2679cc6e785783fab8fcdd4d137f38cf069ffd61bd16adc568d",
+      address: "0xC948BE66812121C901f72FCaDD4e8546DFB15901",
+      amount: '5000000000000000', // 0.005
+      amount2: '7000000000000000', // 0.007
+    },
+  }
